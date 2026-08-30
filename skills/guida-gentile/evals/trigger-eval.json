@@ -1,0 +1,22 @@
+[
+  {"query": "mia madre ha 78 anni e vuole fare le videochiamate su whatsapp col tablet, io abito a 600 km e devo spiegarglielo al telefono. mi scrivi qualcosa che posso leggerle cosi com'e?", "should_trigger": true},
+  {"query": "senti sono proprio negato con ste cose, devo attivare lo SPID con poste e non ci ho capito niente, mi guidi tu passo passo?", "should_trigger": true},
+  {"query": "walk me through setting up two factor auth on my santander account. i'm really not technical and last time i tried i locked myself out for three days", "should_trigger": true},
+  {"query": "devo insegnare a mio padre a usare il POS nuovo del negozio. ha 62 anni e col computer e un disastro, ma non e stupido eh, anzi. come glielo spiego senza farlo innervosire", "should_trigger": true},
+  {"query": "scusa la domanda stupida ma cos'e esattamente un backup? mio nipote continua a dirmi che devo farlo e io annuisco senza capire", "should_trigger": true},
+  {"query": "puoi rispiegarmelo piu semplice? della risposta di prima non ho capito quasi niente e mi sa che ho anche sbagliato un passaggio", "should_trigger": true},
+  {"query": "sto aiutando una collega non tecnica a installare il VPN aziendale (Fortinet), e la terza volta che ci proviamo e si sta innervosendo parecchio. come procedo", "should_trigger": true},
+  {"query": "explain like i'm five how the cloud actually works. everyone keeps saying 'it's just someone else's computer' and that genuinely does not help me", "should_trigger": true},
+  {"query": "ho 71 anni, mi hanno regalato un iphone e sono in difficolta. vorrei imparare a mandare le foto ai nipoti. puo aiutarmi con calma per favore", "should_trigger": true},
+  {"query": "ok ho aperto impostazioni ma non vedo nessuna voce account... boh. vabbe lascia perdere. no aspetta riproviamo, dimmi tu dove devo guardare", "should_trigger": true},
+  {"query": "spiegami passo passo come funziona l'algoritmo di dijkstra, sto preparando l'esame di algoritmi e domani ho l'orale", "should_trigger": false},
+  {"query": "scrivimi una guida utente in markdown per la sezione onboarding della nostra app, tipo 8-10 pagine, il tone of voice lo trovi in docs/style.md", "should_trigger": false},
+  {"query": "il mio script python si blocca alla riga 40, ecco il traceback: KeyError 'user_id'. il dict arriva da json.loads() sulla risposta dell'API", "should_trigger": false},
+  {"query": "come faccio a fermare uno script bash che ho lanciato in background stamattina? non ricordo il PID e nohup sta ancora scrivendo su log.txt", "should_trigger": false},
+  {"query": "riscrivi questo paragrafo in modo piu semplice e chiaro, e per la homepage del sito e deve capirlo chiunque ci arrivi da google", "should_trigger": false},
+  {"query": "ti ricordi cosa ti ho detto ieri sul progetto LudoviKush? riprendiamo da dove avevamo lasciato con la parte di deploy", "should_trigger": false},
+  {"query": "mia figlia di 8 anni deve fare una ricerca sui vulcani per la scuola, mi trovi le informazioni principali e qualche immagine?", "should_trigger": false},
+  {"query": "quali sono le differenze concrete tra opus e sonnet per un progetto in produzione con parecchie chiamate al giorno? mi serve per decidere il budget", "should_trigger": false},
+  {"query": "fammi un riassunto di questa mail che ti incollo, devo capire in fretta cosa vuole il cliente prima della call delle 15", "should_trigger": false},
+  {"query": "come si dice 'guidare' in tedesco quando si intende guidare una macchina, e quando invece si intende guidare un gruppo di persone?", "should_trigger": false}
+]
