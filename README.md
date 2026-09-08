@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/header.svg" alt="Ludovico Cesaro. Agents that do real work on a Mac. Local first, output on disk." width="100%">
+<img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/header.svg?v=3" alt="Ludovico Cesaro. Agents that do real work on a Mac. Local first, output on disk." width="100%">
 
 AI Engineer at METRO Digital, on the agentic AI platform: agents built on Google ADK, deployed on Vertex AI Agent Engine, with Postgres and BigQuery behind them. Here: local-first tooling for macOS. I use Claude Code, Copilot, Cursor and Antigravity on the same codebases with one shared set of rules, so most of what I publish comes out of that setup: tools that capture, transcribe or guard data on the machine instead of sending it away.
 
@@ -10,7 +10,7 @@ Four CLIs, one Mac, one private knowledge base they all read. Unattended runs (l
 
 ### [lightweight-rec](https://github.com/vidoluco/lightweight-rec)
 
-<a href="https://github.com/vidoluco/lightweight-rec"><img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/rec-flow.svg" alt="Option R, then capture at 1 fps with the mic, Whisper on the machine, an optional pass through the claude CLI for title, tags and summary, and a Markdown note in your vault." width="100%"></a>
+<a href="https://github.com/vidoluco/lightweight-rec"><img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/rec-flow.svg?v=3" alt="Option R, then capture at 1 fps with the mic, Whisper on the machine, an optional pass through the claude CLI for title, tags and summary, and a Markdown note in your vault." width="100%"></a>
 
 Option+R. Screen and microphone recorded at 1 fps, about 110 MB an hour, transcribed with Whisper on the machine and filed as a Markdown note in the vault you already use. The capture never leaves the Mac. The title, tags and summary do, through the `claude` CLI, unless you set `RECORD_CLAUDE=0`.
 
