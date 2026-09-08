@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/header.svg?v=3" alt="Ludovico Cesaro. Agents that do real work on a Mac. Local first, output on disk." width="100%">
 
-AI Engineer at METRO Digital, on the agentic AI platform: agents built on Google ADK, deployed on Vertex AI Agent Engine, with Postgres and BigQuery behind them. Here: local-first tooling for macOS. I use Claude Code, Copilot, Cursor and Antigravity on the same codebases with one shared set of rules, so most of what I publish comes out of that setup: tools that capture, transcribe or guard data on the machine instead of sending it away.
+AI Engineer. Agents on Google Cloud at work, local-first tooling for macOS here. I use Claude Code, Copilot, Cursor and Antigravity on the same codebases with one shared set of rules, so most of what I publish comes out of that setup: tools that capture, transcribe or guard data on the machine instead of sending it away.
 
 ### Setup
 
