@@ -10,9 +10,9 @@ Four CLIs, one Mac, one private knowledge base they all read. Unattended runs (l
 
 ### [lightweight-rec](https://github.com/vidoluco/lightweight-rec)
 
-<a href="https://github.com/vidoluco/lightweight-rec"><img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/rec-flow.svg?v=3" alt="Option R, then capture at 1 fps with the mic, Whisper on the machine, an optional pass through the claude CLI for title, tags and summary, and a Markdown note in your vault." width="100%"></a>
+<a href="https://github.com/vidoluco/lightweight-rec"><img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/rec-flow.svg?v=4" alt="Option R, then capture at 1 fps with the mic, Whisper on the machine, an optional pass through the coding CLI named in RECORD_AI for title, tags and summary, and a Markdown note in your vault." width="100%"></a>
 
-Option+R. Screen and microphone recorded at 1 fps, about 110 MB an hour, transcribed with Whisper on the machine and filed as a Markdown note in the vault you already use. The capture never leaves the Mac. The title, tags and summary do, through the `claude` CLI, unless you set `RECORD_CLAUDE=0`.
+Option+R. Screen and microphone recorded at 1 fps, about 110 MB an hour, transcribed with Whisper on the machine and filed as a Markdown note in the vault you already use. The capture never leaves the Mac. The title, tags and summary do, through whichever coding CLI you already have signed in, Claude Code, Cursor or Copilot (`RECORD_AI=copilot`), unless you set `RECORD_AI=0`.
 
 ```
 git clone https://github.com/vidoluco/lightweight-rec.git && cd lightweight-rec && ./install.sh
