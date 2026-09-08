@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 250" width="1280" height="250" role="img" aria-label="lightweight-rec pipeline: Option R, capture, whisper, optional claude, note.md">
+<style>.mono{font-family:ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;}</style>
+<rect width="1280" height="250" fill="#0F0D0C"/>
+<text class="mono" x="64" y="44" fill="#8A837A" font-size="15" letter-spacing="2.5">LIGHTWEIGHT-REC · ~110 MB / HOUR</text>
+<text class="mono" x="1216" y="44" text-anchor="end" fill="#8A837A" font-size="15" letter-spacing="2.5">RECORD_CLAUDE=0 SKIPS THE DASHED BOX</text>
+<rect x="102" y="78" width="120" height="80" rx="14" fill="#1C1917" stroke="#2A2522" stroke-width="2"/>
+<rect x="108" y="82" width="108" height="64" rx="11" fill="#24201D"/>
+<text class="mono" x="162" y="128" text-anchor="middle" fill="#F3ECE2" font-size="30" font-weight="700">⌥ R</text>
+<line x1="222" y1="118" x2="303" y2="118" stroke="#2A2522" stroke-width="2"/>
+<rect x="303" y="78" width="196" height="80" rx="12" fill="#161311" stroke="#2A2522" stroke-width="1.5"/>
+<text class="mono" x="401.0" y="114" text-anchor="middle" fill="#F3ECE2" font-size="24" font-weight="700">capture</text>
+<text class="mono" x="401.0" y="141" text-anchor="middle" fill="#8A837A" font-size="14">1 fps screen + mic</text>
+<text class="mono" x="401.0" y="188" text-anchor="middle" fill="#5E8F5A" font-size="14" letter-spacing="2.5">LOCAL</text>
+<line x1="499" y1="118" x2="542" y2="118" stroke="#2A2522" stroke-width="2"/>
+<rect x="542" y="78" width="196" height="80" rx="12" fill="#161311" stroke="#2A2522" stroke-width="1.5"/>
+<text class="mono" x="640.0" y="114" text-anchor="middle" fill="#F3ECE2" font-size="24" font-weight="700">whisper</text>
+<text class="mono" x="640.0" y="141" text-anchor="middle" fill="#8A837A" font-size="14">transcript, on device</text>
+<text class="mono" x="640.0" y="188" text-anchor="middle" fill="#5E8F5A" font-size="14" letter-spacing="2.5">LOCAL</text>
+<line x1="738" y1="118" x2="781" y2="118" stroke="#2A2522" stroke-width="2"/>
+<rect x="781" y="78" width="196" height="80" rx="12" fill="#161311" stroke="#E5322D" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text class="mono" x="879.0" y="114" text-anchor="middle" fill="#F3ECE2" font-size="24" font-weight="700">claude</text>
+<text class="mono" x="879.0" y="141" text-anchor="middle" fill="#8A837A" font-size="14">title · tags · summary</text>
+<text class="mono" x="879.0" y="188" text-anchor="middle" fill="#E5322D" font-size="14" letter-spacing="2.5">OPTIONAL</text>
+<line x1="977" y1="118" x2="1020" y2="118" stroke="#2A2522" stroke-width="2"/>
+<rect x="1020" y="78" width="196" height="80" rx="12" fill="#161311" stroke="#2A2522" stroke-width="1.5"/>
+<text class="mono" x="1118.0" y="114" text-anchor="middle" fill="#F3ECE2" font-size="24" font-weight="700">note.md</text>
+<text class="mono" x="1118.0" y="141" text-anchor="middle" fill="#8A837A" font-size="14">filed in your vault</text>
+<text class="mono" x="1118.0" y="188" text-anchor="middle" fill="#5E8F5A" font-size="14" letter-spacing="2.5">LOCAL</text>
+<circle r="5" fill="#E5322D"><animateMotion dur="4.5s" repeatCount="indefinite" calcMode="linear" path="M 222 118 H 1020"/></circle>
+<circle r="10" fill="#E5322D" opacity=".18"><animateMotion dur="4.5s" repeatCount="indefinite" calcMode="linear" path="M 222 118 H 1020"/></circle>
+</svg>
