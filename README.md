@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/header.svg" alt="Ludovico Cesaro. Agents that do real work on a Mac; the interesting bits stay on the disk." width="100%">
+<img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/header.svg" alt="Ludovico Cesaro. Agents that do real work on a Mac. Local first, output on disk." width="100%">
 
 Software engineer working on agentic AI. Multi-agent systems on Google Cloud at work, local-first tooling for macOS here. I use Claude Code, Copilot, Cursor and Antigravity on the same codebases, with one shared set of rules, so most of what I publish comes out of that setup: tools that capture, transcribe or guard data on the machine instead of sending it away.
 
