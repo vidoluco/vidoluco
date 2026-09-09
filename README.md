@@ -18,6 +18,16 @@ Option+R. Screen and microphone recorded at 1 fps, about 110 MB an hour, transcr
 git clone https://github.com/vidoluco/lightweight-rec.git && cd lightweight-rec && ./install.sh
 ```
 
+### [toyota-telemetry](https://github.com/vidoluco/toyota-telemetry)
+
+<a href="https://github.com/vidoluco/toyota-telemetry"><img src="https://raw.githubusercontent.com/vidoluco/toyota-telemetry/main/docs/img/map-hills.webp" alt="Every trip drawn on 3D terrain, harsh braking and acceleration marked, the places they repeat ranked beside them." width="100%"></a>
+
+Your Toyota already records every trip, the electric share and every time it decided you braked too hard. The app shows one trip at a time and forgets the rest. This syncs the lot into SQLite on your Mac and answers what the app cannot: which junction you get wrong nineteen trips in a row, what leaving at 07:15 instead of 08:00 saves, what each place costs in fuel. No dongle, no subscription, no map keys, and a synthetic demo so it runs before you connect a car.
+
+```
+git clone https://github.com/vidoluco/toyota-telemetry.git && cd toyota-telemetry && uv run toyota demo
+```
+
 ### Smaller things
 
 | | | |
