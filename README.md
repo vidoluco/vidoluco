@@ -28,6 +28,16 @@ Your Toyota already records every trip, the electric share and every time it dec
 git clone https://github.com/vidoluco/toyota-telemetry.git && cd toyota-telemetry && uv run toyota demo
 ```
 
+### [glasses-chat](https://github.com/vidoluco/glasses-chat)
+
+<a href="https://github.com/vidoluco/glasses-chat"><img src="https://raw.githubusercontent.com/vidoluco/glasses-chat/main/docs/flow.svg" alt="The glasses send a photo and a question on WhatsApp, a relay on Cloudflare holds them, a bridge on the Mac pulls them and answers with Codex, and the glasses read the reply aloud." width="100%"></a>
+
+Meta AI on Ray-Ban Meta glasses is region-locked, but the glasses can still send a photo on WhatsApp and read the reply aloud. So the reply comes from my own model: a relay on Cloudflare's free tier holds the message, a bridge on the Mac pulls it and answers with Codex on a ChatGPT plan. No phone app, no API key, no port open on the Mac.
+
+```
+git clone https://github.com/vidoluco/glasses-chat.git && cd glasses-chat && cat README.md
+```
+
 ### Smaller things
 
 | | | |
