@@ -32,10 +32,10 @@ git clone https://github.com/vidoluco/toyota-telemetry.git && cd toyota-telemetr
 
 <a href="https://github.com/vidoluco/glasses-chat"><img src="https://raw.githubusercontent.com/vidoluco/glasses-chat/main/docs/flow.svg" alt="The glasses send a photo and a question on WhatsApp, a relay on Cloudflare holds them, a bridge on the Mac pulls them and answers with Codex, and the glasses read the reply aloud." width="100%"></a>
 
-Meta AI on Ray-Ban Meta glasses is region-locked, but the glasses can still send a photo on WhatsApp and read the reply aloud. So the reply comes from my own model: a relay on Cloudflare's free tier holds the message, a bridge on the Mac pulls it and answers with Codex on a ChatGPT plan. No phone app, no API key, no port open on the Mac.
+Meta AI on Ray-Ban Meta glasses is region-locked, but the glasses can still send a photo on WhatsApp and read the reply aloud. So the reply comes from my own model: a relay on Cloudflare's free tier holds the message, a bridge on the Mac pulls it and answers with Codex on a ChatGPT plan. Look at a church or a mountain and it tells you what it is and one thing worth knowing, with a web search when the answer needs today's facts, in one sentence short enough for the glasses to read out. About 8 seconds a photo, no phone app, no API key, no port open on the Mac.
 
 ```
-git clone https://github.com/vidoluco/glasses-chat.git && cd glasses-chat && cat README.md
+git clone https://github.com/vidoluco/glasses-chat.git && cd glasses-chat/server && python3 -m unittest test_bridge test_server
 ```
 
 ### Smaller things
