@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/header.svg?v=3" alt="Ludovico Cesaro. Agents that do real work on a Mac. Local first, output on disk." width="100%">
 
-AI Engineer. Agents on Google Cloud at work; in my free time I build all sorts of tools and minigames. I use Claude Code and GitHub Copilot on the same codebases with one shared set of rules, so most of what I publish comes out of that setup: tools that capture, transcribe or guard data on the machine instead of sending it away, and games you play from the sofa.
+I use Claude Code and GitHub Copilot on the same codebases with one shared set of rules. Most of what I publish comes out of that setup: tools that keep data on the machine, and games you play from the sofa.
 
 ### Setup
 
