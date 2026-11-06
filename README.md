@@ -1,12 +1,12 @@
 <img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/header.svg?v=3" alt="Ludovico Cesaro. Agents that do real work on a Mac. Local first, output on disk." width="100%">
 
-AI Engineer. Agents on Google Cloud at work, local-first tooling for macOS here. I use Claude Code, Copilot, Cursor and Antigravity on the same codebases with one shared set of rules, so most of what I publish comes out of that setup: tools that capture, transcribe or guard data on the machine instead of sending it away.
+AI Engineer. Agents on Google Cloud at work; in my free time I build all sorts of tools and minigames. I use Claude Code and GitHub Copilot on the same codebases with one shared set of rules, so most of what I publish comes out of that setup: tools that capture, transcribe or guard data on the machine instead of sending it away, and games you play from the sofa.
 
 ### Setup
 
-<img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/herd.svg" alt="Four coding CLIs read one private knowledge base on a Mac and write notes, transcripts and local commits to disk. git push is blocked by a shim." width="100%">
+<img src="https://raw.githubusercontent.com/vidoluco/vidoluco/main/herd.svg?v=2" alt="Two coding CLIs read one private knowledge base on a Mac and write notes, transcripts and local commits to disk. git push is blocked by a shim." width="100%">
 
-Four CLIs, one Mac, one private knowledge base they all read. Unattended runs (loops, headless sessions, subagents) commit locally and stop there: a `git` and `gh` shim ahead of `PATH` exits 1 on anything that writes to a remote. Push and PR are manual.
+Two CLIs, one Mac, one private knowledge base they both read. Unattended runs (loops, headless sessions, subagents) commit locally and stop there: a `git` and `gh` shim ahead of `PATH` exits 1 on anything that writes to a remote. Push and PR are manual.
 
 ### [lightweight-rec](https://github.com/vidoluco/lightweight-rec)
 
@@ -37,6 +37,23 @@ Meta AI on Ray-Ban Meta glasses is region-locked, but the glasses can still send
 ```
 git clone https://github.com/vidoluco/glasses-chat.git && cd glasses-chat/server && python3 -m unittest test_bridge test_server
 ```
+
+### Games
+
+Browser games on real places. The screen shows the race and your phone is the controller: scan a QR code, nothing to install.
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/vidoluco/racing-karts"><img src="https://raw.githubusercontent.com/vidoluco/racing-karts/main/docs/media/race.gif" alt="A kart race on the Antelao Loop, a painted road through a Dolomite valley"></a></td>
+<td width="50%"><a href="https://github.com/vidoluco/summit-descent"><img src="https://raw.githubusercontent.com/vidoluco/summit-descent/main/docs/media/race.gif" alt="A water drop racing down a real mountain"></a></td>
+</tr>
+<tr>
+<td><b><a href="https://github.com/vidoluco/racing-karts">Racing Karts</a></b><br>Up to four phones, ten tracks on real places from Cadore to Jakarta, eleven items.</td>
+<td><b><a href="https://github.com/vidoluco/summit-descent">Summit Descent</a></b><br>You are a water drop racing down a real mountain to the valley, on its real elevation data.</td>
+</tr>
+</table>
+
+[web-swing](https://github.com/vidoluco/web-swing): swing across real Bucharest and Brașov, rebuilt from OpenStreetMap, in three.js.
 
 ### Smaller things
 
